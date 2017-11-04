@@ -22,14 +22,16 @@ img {
 }
 @-webkit-keyframes background {
     0% { background-color: #f99; }
-    33% { background-color: #9f9; }  
-    67% { background-color: #99f; }
+    25% { background-color: #9f9; }
+    50% { background-color: #ffff00}  
+    75% { background-color: #99f; }
     100% { background-color: #f99; }
   }
   
   @keyframes background {
     0% { background-color: #f99; }
-    33% { background-color: #9f9; }  
-    67% { background-color: #99f; }
+    25% { background-color: #9f9; }
+    50% { background-color: #ffff00}  
+    75% { background-color: #99f; }
     100% { background-color: #f99; }
   }
