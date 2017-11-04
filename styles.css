@@ -4,12 +4,8 @@ html {
 }
 header {
     margin: 16px;
-    font-size: 6em;
-    font-style: bold;
-    color: #212121
 }
 img {
-    margin: 2px;
     height: 100%;
     width: 100%;
 }
@@ -18,7 +14,7 @@ img {
 }
 .flex div {
     flex: 1;
-    margin: 2px;
+    margin: 4px;
 }
 @-webkit-keyframes background {
     0% { background-color: #f99; }
