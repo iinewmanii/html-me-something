@@ -1,0 +1,35 @@
+html {
+    -webkit-animation: background 6s cubic-bezier(1,0.5,0.5,1) infinite;
+    animation: background 6s cubic-bezier(1,0.5,0.5,1) infinite;
+}
+header {
+    margin: 16px;
+    font-size: 6em;
+    font-style: bold;
+    color: #212121
+}
+img {
+    margin: 2px;
+    height: 100%;
+    width: 100%;
+}
+.flex {
+    display: flex;
+}
+.flex div {
+    flex: 1;
+    margin: 2px;
+}
+@-webkit-keyframes background {
+    0% { background-color: #f99; }
+    33% { background-color: #9f9; }  
+    67% { background-color: #99f; }
+    100% { background-color: #f99; }
+  }
+  
+  @keyframes background {
+    0% { background-color: #f99; }
+    33% { background-color: #9f9; }  
+    67% { background-color: #99f; }
+    100% { background-color: #f99; }
+  }
